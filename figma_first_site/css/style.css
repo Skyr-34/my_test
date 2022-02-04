@@ -1,0 +1,209 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  background-color: #2E2E2E;
+  padding: 40px 0;
+  margin-bottom: 60px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Пораметры в header */
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download {
+  color: #FF9900;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.download::before {
+	background-image: url(../img/pdf.png);
+}
+
+.username {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 44px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-style: normal;
+}
+
+.contacts_phon {
+  font-size: 21px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.contacts_mail {
+  color: #FF9900;
+}
+
+.about {
+  display: flex;
+}
+
+.about_left {
+  width: 500px;
+  margin-right: 45px;
+}
+
+.avatar {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Убрать искожение картинки */
+.avatar_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 37px;
+  margin-top: 15px;
+}
+
+.skills_title {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+.sill_tech-list {
+  margin-bottom: 20px;
+}
+
+.sill_tech-item {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.me {
+	margin-top: 55px;
+}
+.me__row {
+	height: 391px;
+	display: flex;
+}
+
+.me__column {
+	padding-right: 35px;
+}
+
+.me__title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 43.88px;
+	margin-bottom: 23px;
+}
+
+.me__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	color: #4F4F4F;
+}
+
+.footer {
+	height: 131px;
+	background-color: #2E2E2E;
+	padding: 46px 0px;
+}
+
+.footer__items {
+	margin: 0px auto;
+	width: 1161px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__icons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__icon {
+	margin-left: 10px;
+}
+
+.discord {
+	height: 38px;
+	width: 38px;
+	background-color: #fff;
+	padding: 10px 8px;
+}
+
+.footer__icons a {
+
+}
